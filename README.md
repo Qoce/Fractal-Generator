@@ -1,2 +1,4 @@
 # Fractal-Generator
 Program I started to write on a car ride summer of 2013.  It generates colored pictures of Mandelbrot and Julia sets.
+The sets are generated based off of recursive mathematical functions that take complex numbers as parameters. The color of a point is absed on how many iterations of the functions it took for a point to diverge, and the black points are points that did not diverge after the number of iterations checked.  For example, the number of iterations checked may be 256, so then the points that do not diverge after 256 iterations will be colored black. 
+This program was written a long time ago, and I was still familiarisinzg my self with the swing library, so the code is messy.  I will eventually rewrite the program and to make it more effecient and make the code more readable.
